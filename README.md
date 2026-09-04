@@ -20,6 +20,10 @@ C# VS 2015 solution for Windows toast-style notifications plus a Win10-style Act
 
 Open `WindowsToastNotifications.sln` in Visual Studio 2015 (solution format 12.00 / Visual Studio 14). C# projects target .NET Framework 4.5.2; most are ToolsVersion 14.0 (`CreateToastNotifications` is ToolsVersion 12.0). `Action Center/Action Center.csproj` was reconstructed because the OneDrive zip contained `Action Center.csproj_Error.txt` instead of the original. The solution expects the sibling project at `..\ACControls\ACControls\ACControls.csproj` (publish that repo next to this one). MSDN toast/Action Center links are kept in `ReadMe.txt`.
 
+## Requirements
+
+- Visual Studio 2015, .NET Framework 4.5.2
+
 ## Attribution and provenance
 
 Working copy from Dave Robinson's OneDrive Historical Dev folder `Toast`. Original README attributes the core toast UI to a 2009 vbforums sample at http://www.vbforums.com/showthread.php?t=547778 (no license information supplied), later modified for [EDGE Shop Flag Notifier](http://www.mpiworldclass.com/customer-center/beta-widgets.aspx). `ToastNotifications/NotificationInfo.cs` is copyright 2007-2011 Service Repair Solutions, Inc., namespace `Mpi.Edge.ShopFlagNotifier`. Assembly copyrights: ToastNotifications © 2012; Action Center, Native, Contracts, ControlLibrary, and Test © 2016. Dave's copy adds Action Center (WCF named-pipe host and tray UI), Contracts, Native, and ControlLibrary.
