@@ -26,7 +26,7 @@ Open `WindowsToastNotifications.sln` in Visual Studio 2015 (solution format 12.0
 
 ## Attribution and provenance
 
-Working copy from Dave Robinson's OneDrive Historical Dev folder `Toast`. Original README attributes the core toast UI to a 2009 vbforums sample at http://www.vbforums.com/showthread.php?t=547778 (no license information supplied), later modified for [EDGE Shop Flag Notifier](http://www.mpiworldclass.com/customer-center/beta-widgets.aspx). `ToastNotifications/NotificationInfo.cs` is copyright 2007-2011 Service Repair Solutions, Inc., namespace `Mpi.Edge.ShopFlagNotifier`. Assembly copyrights: ToastNotifications © 2012; Action Center, Native, Contracts, ControlLibrary, and Test © 2016. Dave's copy adds Action Center (WCF named-pipe host and tray UI), Contracts, Native, and ControlLibrary.
+Working copy from my Historical Dev folder `Toast`. Original README attributes the core toast UI to a 2009 vbforums sample at http://www.vbforums.com/showthread.php?t=547778 (no license information supplied), later modified for [EDGE Shop Flag Notifier](http://www.mpiworldclass.com/customer-center/beta-widgets.aspx). `ToastNotifications/NotificationInfo.cs` is copyright 2007-2011 Service Repair Solutions, Inc., namespace `Mpi.Edge.ShopFlagNotifier`. Assembly copyrights: ToastNotifications © 2012; Action Center, Native, Contracts, ControlLibrary, and Test © 2016. Dave's copy adds Action Center (WCF named-pipe host and tray UI), Contracts, Native, and ControlLibrary.
 
 ## License
 
